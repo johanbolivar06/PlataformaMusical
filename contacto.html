@@ -1,40 +1,78 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-    <title>Contacto</title>
-    <!-- Aquí insertamos las estilos CSS y el favicon-->
-    <link href="style.css" rel="stylesheet" type="text/css" />
-    <link rel="shortcut icon" type="image/png" href="Img\logo.png"/>
-  </head>
-  <body>
 
-      <script src="script.js"></script>
-      <!-- Aquí insertamos el titulo y la descripción-->
-      <center><h1>Formulario de Contacto</h1></center>
-      <h2>Dejanos tus datos:</h2>
-      <p>REDLINE es un medio global gratuito para jóvenes fundado
-      en Medellín - Colombia, que pretende incluir un canal en
-      YouTube, una revista digital, eventos, música, televisión,
-      reportajes, documentales, y su meta es poder operar alrededor del mundo.
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Contacto</title>
 
-      <!-- Aquí insertamos el formulario-->
-      <div id="container">
-          <form>
-                <!-- Cajón de Correo -->
-                <label for="email">Correo electronico:</label>
-                <input type="email">
-                <br>
-                
-                <div id="lower">
-                    <input type="checkbox"><label class="check" for="checkbox">¿Deseas subscribirte a nuestro boletín?</label>
-                    <br>
-                    <br>
-                    <!-- Botón de Enviar -->
-                    <input type="submit" value="Enviar">
-                </div>
-            </form>
-        </div>
-  </body>
+  <!--Estilos CSS-->
+  <link href="css/estilo005.css" rel="stylesheet" type="text/css">
+  <link rel="shortcut icon" type="image/png" href="Img/logo.png" />
+
+  <!--FavIcon-->
+  <link rel="shortcut icon" href="favicon.ico">
+
+  <!--Meta Tags-->
+  <meta name="REDLINE" content="Estudio de Música">
+
+  <meta name="description" content="2020, estudio, proyecto, emprendimiento, instrumentos, animaciones, biografia, grabación, 
+      fotografía, publicidad" />
+
+  <!--java-->
+  <script type="text/javascript" src="js/prototype.js"></script>
+  <script type="text/javascript" src="js/scriptaculous.js?load=effects,builder"></script>
+  <script type="text/javascript" src="js/lightbox.js"></script>
+  <link rel="stylesheet" href="css/lightbox.css" type="text/css" media="screen" />
+</head>
+
+<body>
+
+  <!--Container-->
+  <div id="container">
+
+    <!--Header-->
+    <div id="header">
+      <div id="social">
+        <img src="Img/banner.gif" alt="" width="96%" usemap="#Map" />
+        <map name="Map">
+          <area shape="rect" coords="-2,-4,31,36" href="https://www.facebook.com/" target="new">
+          <area shape="rect" coords="37,-2,67,34" href="https://twitter.com/" target="new">
+          <area shape="rect" coords="73,-5,115,32" href="https://www.youtube.com/" target="new">
+        </map>
+      </div>
+    </div>
+  </div>
+
+
+  <center>
+    <h2>Formulario de Contacto</h2>
+  </center>
+  
+  <h3>Dejanos tus datos:</h3>
+
+  <p style="text-align:center;">REDLINE es un medio global gratuito para jóvenes fundado
+    en Medellín - Colombia, que pretende incluir un canal en
+    YouTube, una revista digital, eventos, música, televisión,
+    reportajes, documentales, y su meta es poder operar alrededor del mundo.</p>
+
+
+  <!-- Aquí insertamos el formulario-->
+  <div id="container2">
+    <form>
+      <!-- Cajón de Correo -->
+      <label for="email">Correo electronico:</label>
+      <input type="email">
+      <br>
+
+      <div id="lower">
+        <input type="checkbox"><label class="check" for="checkbox">¿Deseas subscribirte a nuestro boletín?</label>
+        <br>
+        <br>
+        <!-- Botón de Enviar -->
+        <input type="submit" value="Enviar">
+      </div>
+    </form>
+  </div>
+</body>
 </html>

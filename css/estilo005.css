@@ -1,0 +1,248 @@
+@charset "utf-8";
+
+h1{
+    font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+    color: #606060;
+    font-size: 30px;
+}
+
+h2{
+    font-size: 30px;
+    font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+    color: #000000;
+}
+
+h3{
+    font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+    font-size: 20px;
+    color: #CC0000;
+}
+
+p{
+    font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+    color: #666666;
+    font-size: 15px;
+    text-align: justify;
+    line-height: 25px;
+}
+
+a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+a:hover{
+    text-decoration: underline;
+    color: #FAE400;
+}
+
+#container{
+    width: 95%;
+    height: auto;
+    background-color:#CC0000;
+    margin-left: auto;
+    margin-right: auto;
+    -webkit-box-shadow: 0px 0px 12px #323232;
+    box-shadow: 0px 0px 12px #323232;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+#container2{
+    width: 95%;
+    height: auto;
+    background-color:#d8d0d0;
+    margin-left: auto;
+    margin-right: auto;
+    -webkit-box-shadow: 0px 0px 12px #323232;
+    box-shadow: 0px 0px 12px #323232;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+#header{
+    width: 98vw;
+    background-image: url(Img/banner.gif);
+}
+
+#nav{
+    width: 100%;
+    height: 40px;
+    position: relative;
+    background-color: #CC0000;
+	
+}
+
+#nav ul {
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+#nav ul li {
+    padding: 0px;
+}
+
+#nav ul li a {
+    display: block;
+    height: 40px;
+    width: auto;
+    float: left;
+    text-align: center;
+    font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+    font-size: 15px;
+    color: #FFFFFF;
+    text-decoration: none;
+    line-height: 40px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#nav ul li a:hover {
+    display: block;
+    height: 40px;
+    width: auto;
+    float: left;
+    text-align: center;
+    font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+    font-size: 15px;
+    color: #FFFFFF;
+    text-decoration: none;
+    line-height: 40px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: #CC0000;
+}
+
+
+#article{
+    width: 100%;
+    height: auto;
+    float: left;
+    background-color: #FFFFFF;
+}
+
+#section{
+    width: 60%;
+    height: auto;
+    float: left;
+    padding: 40px;
+    background-color: #FFFFFF;
+}
+
+#aside{
+    width: 30%;
+    height: auto;
+    float: right;
+    padding: 20px;
+    background-color: #FFFFFF;
+}
+
+#navaside{
+    width: 220px;
+    height: auto;
+    float: left;
+    margin-bottom: 20px;
+}
+
+#navaside ul {
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+
+#navaside ul li {
+    padding: 0px;
+}
+
+#navaside ul li a {
+    display: block;
+    width: 200px;
+    height: 28px;
+    float: left;
+    font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+    font-size: 14px;
+    line-height: 28px;
+    text-decoration: none;
+    color: #004180;
+    padding-left: 20px;
+}
+
+#navaside ul li a:hover {
+    display: block;
+    width: 200px;
+    height: 28px;
+    float: left;
+    font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+    font-size: 14px;
+    line-height: 28px;
+    text-decoration: none;
+    color: #004180;
+    padding-left: 20px;
+    background-color: #8EA8B9;
+}
+
+.banneraside{
+    width: 220px;
+    height: auto;
+    float: left;
+    margin-bottom: 20px;
+}
+
+#footer1{
+    width: 67%;
+    background-color: #000000;
+    float: left;
+    padding-left: 1%;
+	
+}
+#footer2{
+    width: 31%;
+    background-color: #CC0000;
+    float: right;
+    padding-left: 1%;
+}
+
+#footer p {
+    font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+    font-size: 14px;
+    color: #333333;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+}
+
+#footer p a {
+    color: #006AAB;
+}
+
+#footer p a:hover {
+    color: #004180;
+}
+
+.boxpeliculas{
+    width: 167px;
+    height: 167px;
+    margin-top: 20px;
+    padding: 15px;
+    margin-right: 20px;
+    background-color: #EAEAEA;
+    border-radius: 10px;
+    border: 1px solid #CCCCCC;
+}
+.boxcontacto{
+	width: auto;
+	height: auto;
+	display: block;
+	margin: 15px;
+	text-align: center;
+}.thumbs{
+    width: 140px;
+    height: 90px;
+    margin-top: 15px;
+    margin-right: 15px;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    float: left;
+}
+
